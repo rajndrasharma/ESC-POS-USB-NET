@@ -77,8 +77,7 @@ printer.PrintDocument();
 
 ```csharp
 Printer printer = new Printer("Printer Name");
-Bitmap image =new Bitmap ( Bitmap.FromFile("Icon.bmp"));
-printer.Image(image);
+printer.Image(byte[]image,bool isScale,HorizonalAlignment);
 printer.FullPaperCut();
 printer.PrintDocument();
 ```
