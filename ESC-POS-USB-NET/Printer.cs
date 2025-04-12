@@ -255,7 +255,7 @@ namespace ESC_POS_USB_NET.Printer
 		public void OpenDrawer()
 		{
 			Append(_command.Drawer.Open());
-		}
+		}	
 
 		public void QrCode(string qrData)
 		{

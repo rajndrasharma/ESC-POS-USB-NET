@@ -8,6 +8,6 @@ namespace ESC_POS_USB_NET.EpsonCommands
         {
             return new byte[] { 27, 112, 0, 60, 120 };
         }
-    }
+	}
 }
 
